@@ -1,0 +1,75 @@
+.grid {
+    align-content: center;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: silver;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: 10px solid #dcd6bc;
+    margin-bottom: 10px;
+}
+
+div { /*grid divisions*/
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Arial Black', monospace;
+}
+
+.free {
+    border: 5px solid;
+    border-color: #f5f3eb;
+    box-sizing: border-box;
+}
+
+.checked {
+    background-color: greenyellow;
+}
+
+.mine {
+    border: 5px solid;
+    border-color: #f5f3eb;
+    box-sizing: border-box;
+}
+
+.one {
+    color: blue;
+}
+
+.two {
+    color: green;
+}
+
+.three {
+    color: yellow;
+}
+
+.four {
+    color: red;
+}
+
+.five {
+    color: lightskyblue;
+}
+
+.six {
+    color: lightgreen;
+}
+
+.seven {
+    color: lightyellow;
+}
+
+.eight {
+    color: crimson;
+}
+.answermine {
+    background-color: gold;
+}
+
+.exploded {
+    background-color: red;
+}
