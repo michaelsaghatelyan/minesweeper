@@ -4,10 +4,10 @@
     width: 500px;
     display: flex;
     flex-wrap: wrap;
-    background-color: silver;
+    background-color: gray;
     margin-left: 50px;
     margin-top: 20px;
-    border: 10px solid #dcd6bc;
+    border: 5px solid #black;
     margin-bottom: 10px;
 }
 
@@ -20,18 +20,18 @@ div { /*grid divisions*/
 }
 
 .free {
-    border: 5px solid;
-    border-color: #f5f3eb;
+    border: 2px solid;
+    border-color: silver;
     box-sizing: border-box;
 }
 
 .checked {
-    background-color: greenyellow;
+    background-color: #f0f8ff;
 }
 
 .mine {
-    border: 5px solid;
-    border-color: #f5f3eb;
+    border: 2px solid;
+    border-color: silver;
     box-sizing: border-box;
 }
 
@@ -44,7 +44,7 @@ div { /*grid divisions*/
 }
 
 .three {
-    color: yellow;
+    color: orange;
 }
 
 .four {
@@ -52,24 +52,32 @@ div { /*grid divisions*/
 }
 
 .five {
-    color: lightskyblue;
+    color: blue;
 }
 
 .six {
-    color: lightgreen;
+    color: green;
 }
 
 .seven {
-    color: lightyellow;
+    color: orange;
 }
 
 .eight {
-    color: crimson;
+    color: red;
 }
 .answermine {
     background-color: gold;
 }
 
+.foundmine {
+    background-color: lightgreen;
+}
+
+.falsemine {
+    background-color: indianred;
+}
+
 .exploded {
-    background-color: red;
+    background-color: crimson;
 }
